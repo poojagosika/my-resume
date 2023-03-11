@@ -2,6 +2,7 @@
 {
     padding: 0px;
     margin: 0px;
+    font-family: Arial,sans-serif;
 }
 
 .top-nav-bar
@@ -9,17 +10,124 @@
     background-color: #0f1111;
     text-align: center;
     display: flex;
-    font-size: 10px;
+    font-size: 14px;
 }
 .top-nav-bar-contents
 {
     color: white;
     border-spacing: 10px;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 .top-nav-bar-contents img{
     width: 100px;
     /* width: 101%; */
     display: flex;
 
+}
+
+
+.top-nav-bar-content-details p
+{
+    font-size: 14px;
+}
+
+.top-nav-bar-content-details h4
+{
+    color: #d3d3d3;
+    /* float: left; */
+
+}
+
+.top-nav-bar-contents i
+{
+    padding: 10px 4px 2px 0px;
+}
+
+.top-nav-bar-contents-search
+{
+    background-color: white;
+    display: flex;
+    margin:10px;
+    padding: none;
+    border-radius: 4px;
+}
+input
+{
+    width: 400px;
+    border: none;
+    outline: none;
+    float: right;
+}
+
+.top-nav-bar-contents-search h4{
+    display: flex;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px;
+
+}
+
+.top-nav-bar-contents-search .fa-magnifying-glass
+{
+    display: flex;
+    background-color: #d7b238;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.top-nav-bar-contents .flag
+{
+    width: 40px;
+}
+/* .top-nav-bar-contents p
+{
+    display:flex;
+    text-align: left;
+} */
+i .fa-cart-shopping
+{
+    float:left;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.bottom-nav-bar
+{
+    background-color: #919191;
+    padding: 10px;
+    display: flex;
+}
+
+.nav-bar-details
+{
+    /* border-spacing: 0px; */
+    display: flex;
+    border-spacing: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.nav-bar-details i
+{
+    display: flex;
+    border-spacing: 10px;
+    white-space: 10px;
+    padding-right: 10px;
+    color: #5b5b5b;
+}
+
+a{
+    text-decoration: none;
+    color: #dcdbdb;
+}
+
+.nav-bar-details h5
+{
+    color: #dcdbdb;
 }
